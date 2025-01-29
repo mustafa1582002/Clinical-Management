@@ -5,7 +5,7 @@ This document provides an overview for a dental clinic management system. The ER
 
 Entities and Relationships
 
-1. Patient Management
+# 1. Patient Management
 
 Patient: Stores details like name, DOB, SSN, ID code, blood type, and medical history.
 
@@ -15,7 +15,7 @@ Appointment: Records diagnosis, symptoms, status, and feedback related to patien
 
 Prescription: Contains details such as medication name, dosage, days, and times to be taken.
 
-2. Staff and Employee Management
+# 2. Staff and Employee Management
 
 Doctor: Includes qualifications, salary, and works in a specific department.
 
@@ -25,7 +25,7 @@ Employee: General entity for staff, including hire date, qualification, resignat
 
 Departments: Groups doctors and other staff into units.
 
-3. Financial Transactions
+# 3. Financial Transactions
 
 General Ledger: Manages payables and receivables.
 
@@ -33,7 +33,7 @@ Payables & Receivables: Store financial transaction details.
 
 Received & Paid: Represent increases and decreases in financial transactions.
 
-4. Attendance and Leave Management
+# 4. Attendance and Leave Management
 
 Leaves: Stores employee leave records, including reason, date, and status.
 
@@ -41,7 +41,7 @@ Absence: Tracks employee absences by date and time.
 
 Holidays: Stores official holiday dates and names.
 
-5. Inventory and Laboratory Management
+# 5. Inventory and Laboratory Management
 
 Laboratory: Tracks laboratory orders and their status.
 
@@ -49,7 +49,7 @@ Stock: Maintains inventory details, including item name, brand, quantity, and un
 
 Order Item: Represents items ordered, along with quantity and pricing.
 
-Relationships Summary
+# Relationships Summary
 
 A Patient has multiple Appointments.
 
@@ -63,7 +63,7 @@ General Ledger manages Payables and Receivables.
 
 Laboratory orders involve Stock items and Order Items.
 
-Conclusion
+# Conclusion
 
 This ERD provides a structured view of how different components of the dental clinic interact. It supports efficient patient management, financial tracking, employee management, and inventory control.
 
